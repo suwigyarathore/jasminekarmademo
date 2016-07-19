@@ -1,0 +1,26 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-htmlfile-reporter": "^0.3.4",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
